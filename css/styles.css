@@ -17,6 +17,11 @@ p {
   flex: 1 0 20%;
 }
 
+li, ul {
+  color: #A6E22E;
+  line-height: 1.6;
+}
+
 code {
   background-color: #49483E;
   color: #A6E22E;

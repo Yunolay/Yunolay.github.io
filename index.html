@@ -1,30 +1,158 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Yunolay's Profile</title>
   <link rel="stylesheet" href="css/styles.css">
-  <!-- Prism CSS -->
-  <link href="css/prism.css" rel="stylesheet" />
 </head>
 <body>
   <header>
-    <h1>Yunolay's profile</h1>
+    <h1>Yunolay's Profile</h1>
   </header>
   <main>
-    <h2>About me</h2>
-    <p>ここにメインコンテンツが入ります。</p>
+    
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <button class="hamburger-menu" style="position: absolute; top: 10px; right: 10px;" onclick="toggleMenu()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <a id="hamburger-menu-certification" href="certification.html" style="display: none;">Certification</a>
+      <a id="hamburger-menu-main" href="index.html" style="display: none;">Main page</a>
+    </button>
+
+    <h2>Overview</h2>
+    <p>Name: Atsuki Hakozaki, aka Yunolay.</p>
+    <p>Gender: Male</p>
+    <p>Country: Japan.</p>
+    <p>Language: Japanese, English(Studying).</p>
+    <p>Interests: Anime, Manga.</p>
+
+    <h2>Socials</h2>
+    <p>Blog: <a href="https://blog.yunolay.com/">https://blog.yunolay.com/</a></p>
+    <p>Twitter: <a href="https://twitter.com/Yunolay">https://twitter.com/Yunolay</a></p>
+    <p>Youtube: <a href="https://www.youtube.com/@Yunolay">https://www.youtube.com/@Yunolay</a></p>
+    <p>Github: <a href="https://github.com/Yunolay">https://github.com/Yunolay</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/Yunolay">https://www.linkedin.com/in/Yunolay</a></p>
+    <p>Anilist: <a href="https://anilist.co/user/Yunolay/">https://anilist.co/user/Yunolay/</a></p>
+
+    <h2>Work Experience</h2>
+
+    <h3>LAC Co., Ltd.</h3>
+    <p>April 2017 - May 2019 (2 years and 2 months)</p>
+    <p>SOC member. Network Security Engineer.</p>
+    <p>Building and operation of security devices such as IPS, IDS, WAF, and Sandbox, etc.</p>
+    <p>FireEye, Macnica, Paloalto, etc.</p>
+
+    <h3>GMO Cybersecurity by Ierae, Inc.</h3>
+    <p>April 2021 - December 2023 (2 years and 9 months)</p>
+    <p>Vulnerability Researcher. Security Engineer.</p>
+    <p>Web, API Vulnerability Diagnosis.</p>
+    <p>Cheating in smartphone games.</p>
+
+    <h2>Skills</h2>
+    <p>Programming Languages: Python, Rust(Studying), Go(Studying).</p>
+    <p>Building and operating security network devices.</p>
+    <p>Web, API Diagnosis.</p>
+    <p>Cheating in smartphone games.</p>
+    <p>Penetration Testing and Red team</p>
+    <p>etc.</p>
+
+    <h2>HackTheBox</h2>
+    <p>Rank: Omniscient Rank.</p>
+    <p>HTB profile page: <a href="https://app.hackthebox.com/profile/97384">https://app.hackthebox.com/profile/97384</a>
+    <p>Best Global Ranking top 8.</p>
+    <p>Best: Japan Ranking 1.</p>
+
+    <h2>CTF</h2>
+    <p>Genre: Web, Pwn.</p>
+
+    <h2>Team</h2>
+    <h3>7h3B14ckKn1gh75, aka Knights.</h3>
+    <p>Role: Knights.</p>
+    <p>HTB Team: <a href="https://app.hackthebox.com/teams/overview/3804">https://app.hackthebox.com/teams/overview/3804</a></p>
+    <p>GitHub: <a href="https://github.com/orgs/7h3-B14ck-Kn1gh75">https://github.com/orgs/7h3-B14ck-Kn1gh75</a></p>
+    <p>CTFTime: <a href="https://ctftime.org/team/145245">https://ctftime.org/team/145245</a></p>
+    <p>We are a devoted CTF team that adores knowledge! Our activities range from encouraging others to succeed to hosting enjoyable tournaments. We provide our devoted members with support around-the-clock! Some of us have extensive experience in the areas of programming, bug hunting, and cyber security.</p>
+    
+    <h2>Certifications</h2>
+    
+    <p>Certification Overview</p>
+    <ul>
+      <li>OffSec
+        <ul>
+          <li>OffSec Certified Professional (OSCP)</li>
+          <li>OffSec Web Expert (OSWE)</li>
+          <li>OffSec Experienced Penetration Tester (OSEP)</li>
+          <li>OffSec Exploit Developer (OSED)</li>
+          <li>OffSec Certified Expert 3 (OSCE3)</li>
+        </ul>
+      </li>
+      <li>HackTheBox
+        <ul>
+          <li>HTB Certified Bug Bounty Hunter (HTB CBBH)</li>
+        </ul>
+      </li>
+      <li>INE Security
+        <ul>
+          <li>eLearnSecurity Certified Professional Penetration Tester (eCPPTv2)</li>
+          <li>eLearnSecurity Web Application Penetration Tester eXtreme (eWPTXv2)</li>
+        </ul>
+      </li>
+      <li>IPA
+        <ul>
+          <li>Fundamental Information Technology Engineer Examination (FE)</li>
+          <li>Applied Information Technology Engineer Examination (AP)</li>
+          <li>Information Security Specialist Examination (SC)</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>For more details, see the following link: <a href="certification.html">Certifications</a>.</p>
+    
+    <h2>Awards History</h2>
+    <h3>HackTheBox Open Beta Season III Holo Rank.</h3>
+    <p>Tier: Holo Rank.</p>
+    <p>11/12 system own.</p>
+    <a href="https://labs.hackthebox.com/achievement/season/97384/3">https://labs.hackthebox.com/achievement/season/97384/3</a>
+    
+    <h3>Top 2 JP (Hall of Fame)</h3>
+    <p>Issuer: HackTheBox, November 2023</p>
+    <p>Achieved Top 2 in the JP on HackTheBox</p>
+  
+    <h3>Top 25 Globally (Hall of Fame)</h3>
+    <p>Issuer: HackTheBox, November 2023</p>
+    <p>Has been in the Top 25 of the Hall of Fame.</p>
+
+    <h3>MBSD Cybersecurity Challenges</h3>
+    <p>2nd place.</p>
+    <a href="https://setten.sgec.or.jp/cooperation/042.html">Detail article</a>
+
+    <h2>Contact(Work Requests, Job Inquiries)</h2>
+    <p>Under Preparation</p>
+
   </main>
-  <button class="hamburger-menu" style="position: absolute; top: 10px; right: 10px;">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-  </button>
+ 
   <footer>
-    <p>フッター</p>
+    <!-- Footer -->
   </footer>
   <!-- Prism JS -->
   <script src="js/prism.js"></script>
+  <script>
+  function toggleMenu() {
+    var linkCertification = document.getElementById("hamburger-menu-certification");
+    var linkMain = document.getElementById("hamburger-menu-main");
+    if (linkCertification.style.display === "none") {
+      linkCertification.style.display = "block";
+      linkMain.style.display = "block";
+    } else {
+      linkCertification.style.display = "none";
+      linkMain.style.display = "none";
+    }
+  }
+ </script>
 </body>
 </html>
