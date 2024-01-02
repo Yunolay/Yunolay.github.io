@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Prism CSS -->
+  <link href="css/prism.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Certificate of Completion</h1>
+  </header>
+
+  <main>
+    
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <button class="hamburger-menu" style="position: absolute; top: 10px; right: 10px;" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <a id="backLink" href="index.html" style="display: none;">Return main page</a>
+    </button>
+
+    <h2>TryHackMe</h2>
+    <h3>Try Hack Me Advent of Cyber 2023</h3>
+    <p>Certified December 27, 2023</p>
+    <img src="cert/certificate_of_completion/THM-3VPERXGPDI.png" alt="tryhackme" style="max-width: 20%; height: auto;">
+
+  </main>
+  <footer>
+    <p>Footer</p>
+  </footer>
+  <!-- Prism JS -->
+  <script src="js/prism.js"></script>
+  <script>
+    function toggleMenu() {
+        var link = document.getElementById("backLink");
+        if (link.style.display === "none") {
+            link.style.display = "block";
+        } else {
+            link.style.display = "none";
+        }
+    }
+    
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+    });
+  </script>
+</body>
+</html>
